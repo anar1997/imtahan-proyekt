@@ -1,0 +1,187 @@
+
+
+
+
+.imtahan-form{
+  background-color: #FFFFFF;
+  padding: 30px !important;
+  /* height: 100vh; */
+}
+
+.first-date-a{
+  color: black;
+}
+
+.first-date-a:hover{
+  color: black;
+}
+
+.first-date-a2{
+  color: black;
+}
+
+.first-date-a2:hover{
+  color: black;
+}
+
+
+
+
+
+.imtahan-input {
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+.imtahan-input:focus {
+  outline: none;
+}
+
+.imtahan-label {
+  font-weight: bold;
+}
+.imtahan-select {
+  width: 205px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.proqram-parametr {
+  width: 86%;
+}
+
+.imtahan-select:focus {
+  outline: none;
+}
+
+.imtahan-select-4 {
+  width: 205px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  color: #0A64FF;
+}
+
+.imtahan-select-4:focus {
+  outline: none;
+  color: #0A64FF;
+}
+
+.imtahan-select-5 {
+  width: 165px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  color: #0A64FF;
+}
+.imtahan-select-5:focus {
+  outline: none;
+  color: #0A64FF;
+}
+
+.imtahan-select-last{
+  width: 205px;
+}
+
+.imtahan-select-input{
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.imtahan-right {
+  padding: 28px !important;
+  font-size: 15px;
+}
+
+.textarea{
+    width: 370px;
+}
+
+.first-date-div{
+  width: 50%;
+}
+
+.first-date{
+  margin-top: 2px;
+}
+
+.start-input {
+  width: 60%;
+  border: none;
+}
+
+.start-input:focus {
+  outline: none;
+}
+
+.calendar-a {
+  color: black;
+  margin-top: 5px;
+  /* width: 10%; */
+  /* margin-right: 90px; */
+}
+
+.calendar-a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.calendar-a2 {
+  color: black;
+  margin-top: 3px;
+}
+
+.calendar-a2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.i-calendar {
+  margin-right: 140px;
+}
+.i-calendar-end {
+  margin-top: -18px;
+}
+
+.endtime {
+  margin-top: 2px;
+}
+
+.kitabxana-button{
+  margin-top: 150px !important;
+}
+
+.kitabxana-button-1 {
+  display: inline-block;
+  width: 105px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #98b0c7;
+  color: white;
+  border-radius: 40px;
+  padding-top: 7px !important;
+  border: none;
+}
+
+.kitabxana-button-1:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.kitabxana-button-2 {
+  background-color: #21d25c;
+  color: white;
+  border-radius: 40px;
+  padding: center !important;
+  width: 105px;
+  height: 40px;
+  padding-bottom: 2px !important;
+  border: none;
+}
+
+
+.datetime {
+  margin-right: 160px !important;
+}
+
+
+
+

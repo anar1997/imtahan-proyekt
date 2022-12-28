@@ -1,0 +1,64 @@
+
+.kodaze {
+  /* font-weight: lighter; */
+  color: #a6bdcc;
+  position: absolute;
+  bottom: 5px;
+  margin-left: 70px !important;
+  font-size: small;
+}
+
+
+.i-calendar{
+    margin-right: 140px !important;   
+}
+.i-calendar-end{
+    margin-top: -18px !important;
+}
+
+
+.hesab-menu{
+  display: none;
+  width: 170px;
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* margin-left: 1190px; */
+  position: absolute;
+  right: -12px;
+  margin-top: -30px !important;
+  border-radius: 5px;
+}
+
+.hesab-menu a{
+  color: black;
+}
+
+.hesab-menu a:hover{
+  color: black;
+}
+
+.parametrs {
+  font-size: 10px;
+  margin-left: 40px !important;
+  margin-top: -20px !important;
+  position: absolute;
+}
+
+.person {
+  margin-top: 15px !important;
+  margin-left: 15px !important;
+}
+
+.log-out {
+  position: absolute;
+  left: 17px;
+  bottom: 11px;
+}
+
+.exit {
+  font-size: 10px;
+  margin-left: 40px !important;
+  position: absolute;
+  top: 43px;
+}

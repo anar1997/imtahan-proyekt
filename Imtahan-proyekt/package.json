@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ckeditor4": "^4.19.1",
+    "flatpickr": "^4.6.13"
+  }
+}

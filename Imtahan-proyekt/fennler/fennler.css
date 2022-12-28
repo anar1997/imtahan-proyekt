@@ -1,0 +1,325 @@
+
+
+.kitabxana-button-1 {
+  /* position: absolute; */
+  /* right: -200px; */
+  background-color: #98b0c7;
+  color: white;
+  border-radius: 40px;
+  padding: center !important;
+  width: 110px;
+  height: 30px;
+  border: none;
+  /* margin-left: 270px; */
+  /* margin-right: 80px;  */
+}
+.kitabxana-button-2 {
+  /* position: absolute; */
+  /* right: -320px; */
+  background-color: #21d25c;
+  color: white;
+  border-radius: 40px;
+  padding: center !important;
+  width: 110px;
+  height: 30px;
+  border: none;
+  /* margin-left: 80px; */
+  /* float: right; */
+}
+
+.kitabxana-button {
+  /* position: relative; */
+  /* width: 100px; */
+  /* margin-left: 80px !important; */
+  /* margin-top: 90px; */
+  margin-top: 80px !important;
+}
+
+.test-form {
+  /* height: 90vh; */
+  width: 70%;
+  /* width: 104%; */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  background-color: #ffffff;
+}
+
+
+.fenn-add {
+  margin-top: 10px !important;
+  width: 90px;
+  height: 30px;
+  background-color: #24619a;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 20px;
+  font-weight: lighter;
+}
+
+.fenn-add p{
+  font-size: 13px;
+}
+
+.i-search {
+  margin-left: -20px !important;
+  color: #c0c0c0;
+  /* font-size: 18px; */
+}
+
+.icon {
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 20px;
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  width: 360px;
+}
+
+.icon:focus{
+  outline: none;
+}
+
+.search-container{
+  height: 30px;
+  /* width: 110px !important; */
+  margin-top: 10px !important;
+  /* margin-left: 1px !important; */
+}
+
+.telebe-search {
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  background-color: #ffffff;
+  /* margin-left: 30px !important; */
+  width: 280px;
+  padding-bottom: 0px !important;
+}
+
+.telebe-search::placeholder{
+  font-size: 14px;
+}
+
+.telebe-search:focus{
+  outline: none;
+}
+
+.test-form table
+ {
+  border: 1px solid #E0E0E0;
+  border-collapse: collapse;
+  /* width: 70%; */
+  max-width: 580px !important;
+  /* height: 70%; */
+  margin-left: 40px !important;
+  /* padding: 10px !important; */
+}
+
+.table th{
+  border: 1px solid #E0E0E0;
+  border-collapse: collapse;
+  padding: 5px !important;
+}
+
+
+
+.table td{
+  border: 1px solid #E0E0E0;
+  border-collapse: collapse;
+  padding: 5px !important;
+}
+
+.pagination{
+  margin-left: 280px !important;
+}
+
+.pag-page{
+  text-decoration: none;
+}
+
+.pag-icon{
+  cursor: pointer;
+}
+
+.count{
+ text-align: center;
+}
+
+.check input{
+  /* margin: auto !important; */
+  margin-left: 5px !important;
+}
+
+.fenn{
+  width: 190px;
+}
+
+.fenn-adding{
+  margin-left: 40px !important;
+  margin-top: 20px !important;
+  max-width: 600px !important;
+  /* width: 700px; */
+}
+
+.pencil{
+  margin-left: 20px !important;
+  color: #073763;
+  font-size: 20px;
+}
+
+.close{
+  font-size: 20px;
+  color: #FF0C0C;
+  /* padding: 5px; */
+  /* padding-top: -2px; */
+}
+
+
+.bg-image{
+  display: none;
+}
+
+.modal-position{
+  display: flex;
+  justify-content: center;
+  margin-left: 30% !important;
+  /* width: 40% !important;  */
+}
+.login {
+  /* background-color: white; */
+  /* margin-left: 90px !important; */
+  /* position: absolute; */
+  /* left: 95%; */
+  /* top: 480%; */
+  /* -webkit-transform: translate(-48%, -48%); */
+  /* transform: translate(258px, -308px); */
+  /* padding: 40px; */
+  /* border-radius: 5px; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* width: 450px; */
+  height: 180px;
+}
+
+.login label{
+  /* margin-left: -20px !important; */
+  width: 120px;
+  font-size: 14px !important;
+}
+
+.login input{
+  border: none;
+  border-bottom: 1px solid;
+  width: 180px;
+  /* margin-left: 45px !important; */
+  color: #C0C0C0;
+}
+
+.login input:focus{
+  outline: none;
+}
+
+/* .login select{
+  border: none;
+  border-bottom: 1px solid;
+  margin-top: 10px !important;
+  color: #C0C0C0;
+}
+
+.login select:focus{
+  outline: none;
+} */
+
+.modal-content{
+  height: 200px;
+  width: 300px;
+}
+
+.button-a1{
+  background-color: #AAC1D3;
+  border: none;
+  border-radius: 20px;
+  color: #FFFF;
+  width: 90px !important;
+  font-size: 14px !important;
+  height: 30px;
+  font-weight: lighter;
+  /* margin-left: 10px !important; */
+  /* margin-top: 80px !important; */
+}
+
+.button-a2{
+  background-color: #21D25C;
+  border: none;
+  border-radius: 20px;
+  color: #FFFF;
+  width: 90px !important;
+  font-size: 14px !important;
+  height: 30px;
+  font-weight: lighter;
+  /* margin-left: 100px; */
+  /* margin-left: 10px !important; */
+  /* margin-right: 10px; */
+}
+
+
+.button-a3{
+  background-color: #073763;
+  border: none;
+  border-radius: 20px;
+  color: #FFFF;
+  height: 30px;
+  width: 120px !important;
+  font-size: 14px !important;
+  font-weight: lighter;
+  /* margin-left: 40px; */
+  margin-right: 125px !important;
+  /* margin-left: 10px !important; */
+}
+
+.login-title {
+  text-align: center;
+}
+.login-button {
+  background-color: #24619a;
+  color: white;
+  border-radius: 40px;
+  padding: 5px !important;
+  width: 100px;
+  border: none;
+  margin-left: 50px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-position{
+    width: 40% !important;
+  }
+
+  .button-a1{
+    margin-bottom: 5px !important;
+  }
+
+  .button-a2{
+    margin-bottom: 5px !important;
+  }
+
+  .pagination{
+    margin-left: 180px !important
+  }
+ 
+}
+
+@media screen and (max-width: 1000px) {
+  .check input{
+    margin-right: 5px !important;
+  }
+}
+
+@media screen and (min-width: 1497.6px) {
+  .test-form table{
+    max-width: 580px !important;
+  }
+
+  .check {
+    width: 35px !important;
+  }
+}
+
+

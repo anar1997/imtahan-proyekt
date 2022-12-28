@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="../menu.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="d-flex">
+    <div class="left-side" id="sideMenu">
+      <div class="d-flex justify-content-between">
+        <h6 class="sidebar-title">
+          İmtahan Mərkəzi
+          <ion-icon class="i-sidebar-title" name="search-outline"></ion-icon>
+        </h6>
+        <ion-icon
+          id="menu-outline"
+          class="i-menu-outline"
+          name="menu-outline"
+          onclick="closeNav()"
+        ></ion-icon>
+      </div>
+      <ul class="sidebar-ul">
+        <li class="sidebar-li">
+          <ion-icon class="i-people" name="people-circle-outline"></ion-icon>
+          <a class="a" href="">Tələbələr</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon name="bookmarks" class="bookmarks"></ion-icon>
+          <a class="a" href="">İmtahanlar</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="stats" name="stats-chart"></ion-icon>
+          <a class="a" href="">Statistika</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="i-time" name="time"></ion-icon>
+          <a class="a" href="">Gündəlik</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="person-circle" name="person-circle"></ion-icon>
+          <a class="a" href="">Müəllimlər</a>
+        </li>
+        <li class="sidebar-li active-li">
+          <ion-icon
+            class="chat-icon"
+            name="chatbox-ellipses-outline"
+          ></ion-icon>
+          <a class="a" href="">Chat</a>
+        </li>
+      </ul>
+      <p class="kodaze">@kodaze</p>
+    </div>
+
+    <div class="right-side" id="sideMenu-1">
+      <div class="d-flex justify-content-between">
+        <div class="arrow">
+          <ion-icon
+            id="menu-outline-hidden"
+            class="i-menu-outline"
+            style="display: none"
+            name="menu-outline"
+            onclick="closeNav()"
+          ></ion-icon>
+          <a href=""><ion-icon name="arrow-back"></ion-icon></a>
+          <a href=""><ion-icon name="arrow-forward"></ion-icon></a>
+        </div>
+        <div>
+          <p class="header-p">Chat</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="reload">
+            <a href=""><ion-icon name="reload-outline"></ion-icon></a>
+            <a href=""><ion-icon name="notifications-outline"></ion-icon></a>
+          </div>
+          <div onclick="showHesabMenu()" class="dropdown">
+            <img class="dropdown-img" src="man.jfif" alt="" />
+            <p class="dropdown-name">Əliyev Fərid</p>
+            <ion-icon name="caret-down"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="empty-area row"></div>
+      <div class="hesab-menu">
+        <a href=""
+          ><ion-icon class="person" name="person"></ion-icon>
+          <p class="parametrs">Hesab parametrləri</p></a
+        >
+        <a href=""
+          ><ion-icon class="log-out" name="log-out"></ion-icon>
+          <p class="exit">Hesabdan çıx</p></a
+        >
+      </div>
+      <!-- body -->
+      <div>
+        <form action="">
+          <div class="d-flex">
+            <div class="chat-left">
+              <div class="d-flex justify-content-between">
+                <h1 class="chat-h1">Chats</h1>
+                <ion-icon class="add-circle" name="add-circle"></ion-icon>
+              </div>
+              <input class="search" type="text" placeholder="Search here.." />
+              <div class="chates">
+                <div class="favourites">
+                  <h1 class="chat-fav">FAVOURITES</h1>
+                  <ul>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="direct">
+                  <div class="d-flex justify-content-between">
+                    <h1 class="chat-fav">DIRECT MESSAGES</h1>
+                    <ion-icon class="add-circle" name="add-circle"></ion-icon>
+                  </div>
+                  <ul>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                    <li>
+                      <img class="img-chat" src="man.jfif" alt="" />
+                      <a href="">Əliyev Fərid</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="channels">
+                  <div class="d-flex justify-content-between">
+                    <h1 class="chat-fav">CHANNELS</h1>
+                    <ion-icon class="add-circle" name="add-circle"></ion-icon>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="">#   Landing Design</a>
+                    </li>
+                    <li>
+                      <a href="">#   Design Phase 2</a>
+                    </li>
+                    <li>
+                      <a href="">#   Brand Suggestion</a>
+                    </li>
+                    <li>
+                      <a href="">#   Reporting</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="chat-right">
+              <div class="top d-flex justify-content-between">
+                <div class="div-header">
+                    <img class="img-header me-2" src="man.jfif" alt="">
+                    <span class="fw-bold">Ad Soyad</span>
+                </div>
+                <div class="search-chat">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+              </div>
+              <div class="middle">
+                <div class="chat-messages p-4">
+  
+                    <div class="chat-message-right pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:33 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:34 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-right mb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:35 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Cum ea graeci tractatos.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:36 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Sed pulvinar, massa vitae interdum pulvinar, risus lectus porttitor magna, vitae commodo lectus mauris et velit.
+                        Proin ultricies placerat imperdiet. Morbi varius quam ac venenatis tempus.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:37 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Cras pulvinar, sapien id vehicula aliquet, diam velit elementum orci.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-right mb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:38 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:39 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-right mb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:40 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Cum ea graeci tractatos.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-right mb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:41 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Morbi finibus, lorem id placerat ullamcorper, nunc enim ultrices massa, id dignissim metus urna eget purus.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:42 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Sed pulvinar, massa vitae interdum pulvinar, risus lectus porttitor magna, vitae commodo lectus mauris et velit.
+                        Proin ultricies placerat imperdiet. Morbi varius quam ac venenatis tempus.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-right mb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Chris Wood" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:43 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+                        <div class="fw-bold mb-1">You</div>
+                        Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                      </div>
+                    </div>
+      
+                    <div class="chat-message-left pb-4">
+                      <div>
+                        <img src="man.jfif" class="rounded-circle mr-1" alt="Ad Soyad" width="40" height="40">
+                        <div class="text-muted small text-nowrap mt-2">2:44 am</div>
+                      </div>
+                      <div class="flex-shrink-1 bg-light rounded py-2 px-3 ml-3">
+                        <div class="fw-bold mb-1">Ad Soyad</div>
+                        Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
+                      </div>
+                    </div>
+      
+                  </div>
+              </div>
+              <div class="bottom">
+                <div class="flex-grow-0 py-3 px-4 border-top">
+                    <div class="input-group">
+                        <input type="text" class="send-msg" placeholder="Type your message">
+                        <button class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="statistika-script.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>

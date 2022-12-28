@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="telebeler.css" />
+    <link rel="stylesheet" href="../menu.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="d-flex">
+    <div class="left-side" id="sideMenu">
+      <div class="d-flex justify-content-between">
+        <h6 class="sidebar-title">
+          İmtahan Mərkəzi
+          <ion-icon class="i-sidebar-title" name="search-outline"></ion-icon>
+        </h6>
+        <ion-icon id="menu-outline" class="i-menu-outline" name="menu-outline" onclick="closeNav()"></ion-icon>
+      </div>
+      <ul class="sidebar-ul">
+        <li class="sidebar-li active-li">
+          <ion-icon class="i-people" name="people-circle-outline"></ion-icon>
+          <a class="a" href="">Tələbələr</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon name="bookmarks" class="bookmarks"></ion-icon>
+          <a class="a" href="">İmtahanlar</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon name="stats-chart"></ion-icon>
+          <a class="a" href="">Statistika</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="i-time" name="time"></ion-icon>
+          <a class="a" href="">Gündəlik</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="person-circle" name="person-circle"></ion-icon>
+          <a class="a" href="">Müəllimlər</a>
+        </li>
+        <li class="sidebar-li">
+          <ion-icon class="chat-icon"  name="chatbox-ellipses"></ion-icon>
+          <a class="a" href="">Chat</a>
+        </li>
+      </ul>
+      <p class="kodaze">@kodaze</p>
+    </div>
+
+    <div class="right-side" id="sideMenu-1">
+      <div class="d-flex justify-content-between">
+        <div class="arrow">
+        <ion-icon id="menu-outline-hidden" class="i-menu-outline" style="display: none;" name="menu-outline" onclick="closeNav()"></ion-icon>
+          <a href=""><ion-icon name="arrow-back"></ion-icon></a>
+          <a href=""><ion-icon name="arrow-forward"></ion-icon></a>
+        </div>
+        <div>
+          <p class="header-p">Tələbələr</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="reload">
+            <a href=""><ion-icon name="reload-outline"></ion-icon></a>
+            <a href=""><ion-icon name="notifications-outline"></ion-icon></a>
+          </div>
+          <div onclick="showHesabMenu()" class="dropdown">
+            <img class="dropdown-img" src="man.jfif" alt="" />
+            <p class="dropdown-name">Əliyev Fərid</p>
+            <ion-icon name="caret-down"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="empty-area row"></div>
+      <div class="hesab-menu">
+        <a href=""><ion-icon class="person" name="person"></ion-icon>
+        <p class="parametrs">Hesab parametrləri</p></a>
+        <a href=""><ion-icon class="log-out" name="log-out"></ion-icon>
+        <p class="exit">Hesabdan çıx</p></a>
+    </div>
+      <div class="telebeler-form">
+        <form action="">
+          <div class="row">
+            <div class="telebeler-add row">
+              <div class="col-lg-3">
+                <a class="telebe-button">Tələbə əlavə et</a>
+              </div>
+              <div class="col-lg-9">
+                <input type="text" class="icon" value placeholder="Tələbə adı axtar">
+              </div>
+            </div>
+            <div class="">
+                <div class="row first-col">
+                    <div class="col-md-3 me-1 card-1">
+                        <img class="img" src="./man.jfif" alt="">
+                        <h6 class="card-title">Əliyev Vahid Fərid</h6>
+                        <p>050 220 20 20</p>
+                        <div class="card-icon d-flex justify-content-end">
+                          <a href=""><ion-icon
+                            class="i-pencil"
+                            name="pencil-outline"
+                          ></ion-icon></a>
+                          <form action="">
+                            <button class="i-trash-button" href=""><ion-icon class="i-trash" name="trash"></ion-icon></button>
+                          </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 me-1 card-1">
+                        <img class="img" src="./man.jfif" alt="">
+                        <h6 class="card-title">Əliyev Vahid Fərid</h6>
+                        <p>050 220 20 20</p>
+                        <div class="card-icon d-flex justify-content-end">
+                          <a href=""><ion-icon
+                            class="i-pencil"
+                            name="pencil-outline"
+                          ></ion-icon></a>
+                          <form action="">
+                            <button class="i-trash-button" href=""><ion-icon class="i-trash" name="trash"></ion-icon></button>
+                          </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 me-1 card-1">
+                        <img class="img" src="./man.jfif" alt="">
+                        <h6 class="card-title">Əliyev Vahid Fərid</h6>
+                        <p>050 220 20 20</p>
+                        <div class="card-icon d-flex justify-content-end">
+                          <a href=""><ion-icon
+                            class="i-pencil"
+                            name="pencil-outline"
+                          ></ion-icon></a>
+                          <form action="">
+                            <button class="i-trash-button" href=""><ion-icon class="i-trash" name="trash"></ion-icon></button>
+                          </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 me-1 card-1">
+                      <img class="img" src="./man.jfif" alt="">
+                      <h6 class="card-title">Əliyev Vahid Fərid</h6>
+                      <p>050 220 20 20</p>
+                      <div class="card-icon d-flex justify-content-end">
+                        <a href=""><ion-icon
+                          class="i-pencil"
+                          name="pencil-outline"
+                        ></ion-icon></a>
+                        <form action="">
+                          <button class="i-trash-button" href=""><ion-icon class="i-trash" name="trash"></ion-icon></button>
+                        </form>
+                      </div>
+                  </div>
+                  <div class="col-md-3 me-1 card-1">
+                    <img class="img" src="./man.jfif" alt="">
+                    <h6 class="card-title">Əliyev Vahid Fərid</h6>
+                    <p>050 220 20 20</p>
+                    <div class="card-icon d-flex justify-content-end">
+                      <a href=""><ion-icon
+                        class="i-pencil"
+                        name="pencil-outline"
+                      ></ion-icon></a>
+                      <form action="">
+                        <button class="i-trash-button" href=""><ion-icon class="i-trash" name="trash"></ion-icon></button>
+                      </form>
+                    </div>
+                </div>
+                </div>
+
+
+    </div>
+ 
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="telebeler-script.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>

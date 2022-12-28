@@ -1,0 +1,121 @@
+
+
+
+.telebeler-add {
+  width: 800px !important;
+  margin-top: 20px !important;
+  padding-left: 50px !important;
+}
+
+.telebe-button {
+  background-color: #24619a;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  text-decoration: none;
+}
+
+.telebe-button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.telebe-search{
+    border: none;
+    border-bottom: 1px solid #B4B4B4;
+    background-color: #F8F8F8;
+    /* margin-left: 30px !important; */
+    width: 280px ;
+}
+
+.telebe-search:focus{
+    outline: none;
+}
+
+.i-search{
+    margin-left: -20px !important;
+    color: #C0C0C0;
+}
+
+.icon {
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 20px;
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  width: 340px;
+}
+
+.card-icon{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.icon:focus{
+  outline: none;
+}
+
+.first-col{
+    margin-top: 30px !important;
+    margin-left: 50px !important;
+    margin-right: 20px !important;
+}
+
+.card-1{
+    background-color: #FFFFFF;
+    width: 280px !important;
+    height: 110px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+    position: relative;
+}
+
+.img{
+    width: 70px;
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+}
+
+.card-title{
+    margin-left: 100px !important;
+    margin-top: -70px !important;
+    font-size: 13px !important;
+}
+
+.card-1 p{
+    margin-top: 13px !important;
+    margin-left: 100px !important;
+    font-size: 10px !important;
+}
+
+.i-pencil{
+    /* margin-left: 200px !important; */
+    color: #929292;
+    font-size: 13px;
+    /* margin-top: 20px !important; */
+}
+
+.i-trash{
+    color: #929292;
+    /* margin-top: 20px !important; */
+}
+
+.pencil-trash{
+  margin-top: 5px !important;
+  /* margin-bottom: 5px !important; */
+  padding-bottom: 10px !important;
+}
+
+.i-trash-button{
+  border: none;
+  background-color: #FFFFFF;
+}
+
+

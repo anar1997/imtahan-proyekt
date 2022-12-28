@@ -1,0 +1,103 @@
+.bg-image {
+    background-image: url("./5492320.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .login {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-48%, -48%);
+    transform: translate(-48%, -48%);
+    /* padding: 40px; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 450px;
+    height: 180px;
+  }
+
+  .login label{
+    margin-left: -20px;
+  }
+
+  .login input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 120px;
+    margin-left: 45px;
+    color: #C0C0C0;
+  }
+
+  .login input:focus{
+    outline: none;
+  }
+
+  .login select{
+    border: none;
+    border-bottom: 1px solid;
+    width: 120px;
+    margin-left: 48px;
+    margin-top: 10px;
+    color: #C0C0C0;
+  }
+
+  .login select:focus{
+    outline: none;
+  }
+  
+  .button-1{
+    background-color: #AAC1D3;
+    border: none;
+    border-radius: 20px;
+    color: #FFFF;
+    width: 80px;
+    height: 30px;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+
+  .button-2{
+    background-color: #21D25C;
+    border: none;
+    border-radius: 20px;
+    color: #FFFF;
+    width: 80px;
+    height: 30px;
+    font-weight: lighter;
+    /* margin-left: 100px; */
+    margin-left: 10px;
+    /* margin-right: 10px; */
+  }
+
+
+  .button-3{
+    background-color: #073763;
+    border: none;
+    border-radius: 20px;
+    color: #FFFF;
+    height: 30px;
+    width: 140px;
+    font-weight: lighter;
+    /* margin-left: 40px; */
+    margin-right: -45px;
+    margin-left: 10px;
+  }
+
+
+  .login-title {
+    text-align: center;
+  }
+  .login-button {
+    background-color: #24619a;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    margin-left: 50px;
+  }

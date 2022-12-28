@@ -1,0 +1,371 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    /* width: 100.78%; */
+    /* height: 100vh; */
+  }
+
+  .wrapper{
+    display: flex;
+    align-items: stretch;
+  }
+  .left-side {
+    background-color: #073763;
+    height: 100vh !important;
+    color: #f2fbfe;
+    min-width: 250px;
+    max-width: 250px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    /* position: fixed; */
+  /* top: 0; */
+  /* left: -30%; */
+    /* padding: 10px !important; */
+  }
+  
+
+  .kodaze {
+    /* font-weight: lighter; */
+    color: #a6bdcc;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+    font-size: small;
+  }
+
+  .i-people {
+    /* background-color: #073763; */
+    font-size: 20px;
+    margin-bottom: -5px !important;
+  }
+  .stats {
+    /* color: #f8f8f8; */
+    /* position: relative; */
+    /* top: 5px !important; */
+  }
+
+  .person-circle{
+    /* color: #073763; */
+    font-size: 18px;
+    position: relative;
+    top: 3px !important;
+  }  
+  
+  .bookmarks {
+  /* color: #F8F8F8; */
+  /* padding-left: 10px !important; */
+  }
+
+  .i-time{
+    /* color: #073763; */
+    /* padding-left: 10px !important; */
+    position: relative;
+    top: 2px !important;
+  }
+
+  /* .bookmarks {
+    color: #073763;
+  } */
+
+  .chat-icon{
+    position: relative;
+    top: 3px !important;
+  }
+
+  .active-li {
+    background-color: #f2fbfe;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    /* margin-left: 0 !important; */
+    }
+    
+    .active-li a {
+    color: #073763;
+    }
+
+.active-li ion-icon{
+  color: #073763;
+}
+
+
+    .i-sidebar-title{
+      font-size: 20px;
+    }
+    
+    .i-menu-outline{
+      font-size: 30px;
+      margin-left: 18px !important;
+      cursor: pointer;
+      /* margin-right: 10px !important; */
+      display: inline-block;
+    } 
+    
+  .a {
+    color: #f2fbfe;
+    text-decoration: none;
+    margin-left: 3px !important;
+    display: inline-block;
+    /* padding-bottom: 25px !important; */
+  }
+
+ 
+  .sidebar-ul {
+    padding-left: 0 !important;
+  }
+  
+  .sidebar-li {
+    list-style: none;
+    margin-bottom: 20px !important;
+    padding: 8px !important;
+    /* margin-left: 5px !important; */
+  }
+
+  .sidebar-li ion-icon{
+    padding-left: 15px !important;
+    display: inline-block;
+  }
+  
+  .sidebar-title {
+    margin-bottom: 40px !important; 
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+  }
+
+  .sidebar-title-img{
+    height: 50px !important;
+    width: 150px !important;
+  }
+
+  .right-side {
+    background-color: #FFFFFF;
+    width: 100%;
+  }
+  
+  .arrow {
+    margin-top: 5px !important;
+    margin-left: 30px !important;
+    font-size: 25px;
+    color: #073763;
+  }
+  
+  .arrow a{
+    color: #073763;
+  }
+  
+  .arrow a:hover{
+    color: #073763;
+  }
+
+  .reload {
+    margin-top: 5px !important;
+    font-size: 25px;
+    margin-right: 10px !important;
+    color: #335a7e;
+  }
+  
+  .reload a{
+    color: #335a7e;
+  }
+  
+  .reload a:hover{
+    color: #335a7e;
+  }
+
+  .dropdown a {
+    color: black;
+  }
+  
+  .dropdown a:hover {
+    color: black;
+  }
+  
+  .dropdown-name {
+    display: inline-block;
+    padding-bottom: 5px !important;
+  }
+  
+  .dropdown-img {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+  }
+  
+  .dropdown {
+    /* margin-top: 15px; */
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .dropdown:hover{
+    cursor: pointer;
+  }
+
+  .header-p {
+    text-align: center;
+    color: #446889;
+    margin-top: 10px !important;
+    font-weight: 500;
+  }
+
+  .empty-area {
+    background-color: #073763;
+    /* width: 1000px;  */
+    height: 30px;
+    /* margin-bottom: 30px; */
+    /* margin-left: 0; */
+    /* margin-bottom: 80px; */
+  }
+
+  .hesab-menu{
+    display: none;
+    width: 160px;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* margin-left: 1190px; */
+    position: absolute;
+    right: 0.5px;
+    margin-top: -30px !important;
+    border-radius: 5px;
+  }
+  
+  .hesab-menu a{
+    color: black;
+  }
+  
+  .hesab-menu a:hover{
+    color: black;
+  }
+  
+  .parametrs {
+    font-size: 10px;
+    margin-left: 40px !important;
+    margin-top: -20px !important;
+    position: absolute;
+  }
+  
+  .person {
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+  }
+  
+  .log-out {
+    position: absolute;
+    left: 17px;
+    bottom: 11px;
+  }
+  
+  .exit {
+    font-size: 10px;
+    margin-left: 40px !important;
+    position: absolute;
+    top: 43px;
+  }
+
+  /* @media screen and (max-width: 1497.6px) and (min-width: 768px){
+    .sidebar-li ion-icon{
+      margin-left: -4px !important;
+      
+    }
+    
+    .i-menu-outline{
+      
+      margin-left: 6px !important;
+    }
+  } */
+
+
+  @media screen and (max-width: 768px) {
+    .left-side{
+      min-width: 68px;
+      max-width: 68px;
+    }
+    .header-p{
+      font-size: 11px;
+    }
+
+    .arrow{
+      font-size: 18px;
+    }
+
+    .reload{
+      font-size: 18px;
+      margin-top: 8px !important;
+    }
+
+    .dropdown{
+      font-size: 9px;
+    }
+
+    .sidebar-title{
+      display: none;
+    }
+
+    .kodaze{
+      display: none;
+    }
+
+    .a{
+      display: none;
+    }
+}
+
+/* @media screen and (min-width: 1497.6px) {
+  .left-side{
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  .a{
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .sidebar-li{
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-li ion-icon{
+    margin-top: 10px !important;
+    font-size: 25px !important;
+    padding-bottom: 3px !important;
+    padding-left: 15px !important;
+    display: inline-block;
+  }
+
+  .sidebar-ul{
+    font-size: 20px !important;
+  }
+
+  .i-people{
+    font-size: 25px !important;
+  }
+
+  .sidebar-title{
+    font-size: 20px !important;
+  } 
+
+ .i-sidebar-title{
+    font-size: 25px !important;
+  }
+
+  .i-menu-outline{
+    margin-left: 15px !important;
+    font-size: 45px !important;
+  } 
+} */
+
+.margin-left{
+  margin-left: 22px !important;
+}
